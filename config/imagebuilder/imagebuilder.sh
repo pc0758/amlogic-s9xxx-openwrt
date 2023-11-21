@@ -207,6 +207,7 @@ rebuild_firmware() {
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
 	bluez-daemon keepalived redsocks \
+ 	asterisk asterisk-chan-mobile asterisk-chan-sip asterisk-chan-rtp asterisk-bridge-simple asterisk-codec-ulaw asterisk-format-pcm asterisk-res-rtp-asterisk asterisk-pjsip \
         ${config_list} \
         "
 
