@@ -206,7 +206,7 @@ rebuild_firmware() {
         \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
-	bluez-daemon keepalived luci-proto-wireguard luci-app-mwan3 \
+	bluez-daemon keepalived redsocks \
         ${config_list} \
         "
 
