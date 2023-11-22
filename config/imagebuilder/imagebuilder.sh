@@ -207,7 +207,10 @@ rebuild_firmware() {
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
 	bluez-daemon keepalived redsocks \
- 	asterisk asterisk-chan-mobile asterisk-chan-sip asterisk-chan-rtp asterisk-bridge-simple asterisk-codec-ulaw asterisk-format-pcm asterisk-res-rtp-asterisk asterisk-pjsip \
+ 	asterisk asterisk-chan-mobile asterisk-chan-sip asterisk-chan-rtp asterisk-res-rtp-asterisk asterisk-pjsip \
+	asterisk-bridge-simple asterisk-bridge-native-rtp asterisk-bridge-softmix \
+	asterisk-codec-ulaw asterisk-codec-alaw asterisk-format-pcm \
+	asterisk-app-voicemail asterisk-app-queue asterisk-func-channel asterisk-bridge-holding \
         ${config_list} \
         "
 
