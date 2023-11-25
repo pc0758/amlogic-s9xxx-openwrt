@@ -204,7 +204,7 @@ rebuild_firmware() {
         luci-proto-3g luci-proto-bonding luci-proto-ipip luci-proto-ipv6 luci-proto-ncm  \
         luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay  \
         \
-        luci-app-amlogic luci-i18n-amlogic-zh-cn \
+        luci-app-amlogic luci-i18n-amlogic-zh-cn luci-i18n-mwan3-zh-cn \
         \
 	bluez-daemon keepalived redsocks \
  	asterisk asterisk-chan-mobile asterisk-chan-sip asterisk-chan-rtp asterisk-res-rtp-asterisk asterisk-pjsip \
